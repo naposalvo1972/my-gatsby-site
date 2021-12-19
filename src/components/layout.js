@@ -1,36 +1,26 @@
 import * as React from 'react'
-import { Link } from 'gatsby'
+import Footer from './footer'
+import Helmet from "react-helmet"
+import Header from './header'
+import { withPrefix } from "gatsby"
 import "./css/bootstrap-italia.min.css"
 import {
-  container,
   heading,
-  navLinks,
-  navLinkItem,
-  navLinkText
 } from './layout.module.css'
+
 
 const Layout = ({ pageTitle, children }) => {
   return (
-    <div className={container}>
-      <title>{pageTitle}</title>
-      <nav>
-        <ul className={navLinks}>
-          <li className={navLinkItem}>
-            <Link to="/" className={navLinkText}>
-              Home
-            </Link>
-          </li>
-          <li className={navLinkItem}>
-            <Link to="/about" className={navLinkText}>
-              About
-            </Link>
-          </li>
-        </ul>
-      </nav>
+    <div>
+     <Header></Header>
       <main>
-        <h1 className={heading}>{pageTitle}</h1>
         {children}
       </main>
+     <Footer></Footer>
+     <Helmet>
+        <script>window.__PUBLIC_PATH__ = '/fonts' </script>
+        <script src={withPrefix('bootstrap-italia.bundle.min.js')} type="text/javascript" />
+    </Helmet>
     </div>
   )
 }
