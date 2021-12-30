@@ -61,7 +61,7 @@ const Header = () => (
                       <use xlinkHref={`${sprite}#it-pa`}/>  
                     </svg>
                     <div class="it-brand-text">
-                      <h2 class="no_toc">Nome del Comune</h2>
+                      <h2 class="no_toc">Nome del Comune di prova</h2>
                       <h3 class="no_toc d-none d-md-block">
                         Uno dei tanti Comuni d'Italia
                       </h3>
