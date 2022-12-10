@@ -1,6 +1,8 @@
 import * as React from 'react'
 import sprite from "./svg/sprite.svg"
 
+import { Link } from "gatsby"
+
 const Header = () => (
     <header class="it-header-wrapper it-header-sticky">
     <div class="it-header-slim-wrapper">
@@ -127,6 +129,9 @@ const Header = () => (
                           <span>Amministrazione</span>
                           
                         </a>
+                      </li>
+                      <li class="nav-item ">
+                         <Link class="nav-link" to="/about">AboutPage</Link>
                       </li>
                       <li class="nav-item ">
                         <a class="nav-link " href="/design-comuni-prototipi/esempi/bootstrap-italia/template-novita.html">

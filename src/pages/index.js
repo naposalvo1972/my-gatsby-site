@@ -2,6 +2,7 @@ import * as React from 'react'
 import Layout from '../components/layout'
 
 
+
 const IndexPage = () => {
   return (
     <Layout pageTitle="Home Page">
@@ -19,6 +20,7 @@ const IndexPage = () => {
                 <svg class="icon">
                   <use xlinkHref="/design-comuni-prototipi/assets/bootstrap-italia/dist/svg/sprite.svg#it-calendar"></use>
                 </svg>
+                
                 <a class="category" href="#">Notizie</a>
                 <span class="data">18 mag 2018</span>
               </div>
