@@ -62,7 +62,7 @@ const IndexPage = () => {
               </div>
 
               <a class="read-more pl-4" href="/design-comuni-prototipi/esempi/bootstrap-italia/template-amministrazione.html">
-                <span class="text">Tutta l'amministrazione</span>
+                <span class="text">Tutta l'amministrazione di prova 111</span>
                 <svg class="icon">
                   <use xlinkHref="/design-comuni-prototipi/assets/bootstrap-italia/dist/svg/sprite.svg#it-arrow-right"></use>
                 </svg>
