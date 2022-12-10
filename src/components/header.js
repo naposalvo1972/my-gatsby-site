@@ -130,6 +130,7 @@ const Header = () => (
                           
                         </a>
                       </li>
+                      
                       <li class="nav-item ">
                          <Link class="nav-link" activeClassName="nav-link active" to="/about">AboutPage</Link>
                       </li>
