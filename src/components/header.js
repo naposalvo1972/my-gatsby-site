@@ -131,7 +131,7 @@ const Header = () => (
                         </a>
                       </li>
                       <li class="nav-item ">
-                         <Link class="nav-link" to="/about">AboutPage</Link>
+                         <Link class="nav-link" activeClassName="nav-link active" to="/about">AboutPage</Link>
                       </li>
                       <li class="nav-item ">
                         <a class="nav-link " href="/design-comuni-prototipi/esempi/bootstrap-italia/template-novita.html">
