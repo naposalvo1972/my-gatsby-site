@@ -1,13 +1,15 @@
 ---
-slug: "my-first-blog-post-1"
+slug: "my-first-blog-post-2"
 date: "2022-11-24"
-title: "My first blog post 1"
+title: "My first blog post 2"
 html: "I'am agreeeee"
 ---
 
+import {Posts} from '../components/posts.js'
+
 <Posts />
 
-<h3>Contribution Guidelines</h3>
+<h3>Contribution Guidelines11</h3>
 
 Please ensure your pull request adheres to the following guidelines:
 
