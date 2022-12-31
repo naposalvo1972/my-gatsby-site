@@ -5,6 +5,8 @@ title: "My first blog post 1"
 html: "I'am agreeeee"
 ---
 
+<Posts />
+
 <h3>Contribution Guidelines</h3>
 
 Please ensure your pull request adheres to the following guidelines:
