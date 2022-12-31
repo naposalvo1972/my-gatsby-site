@@ -1,12 +1,10 @@
-import Posts from '../components/posts.js'
-
 ---
+import Posts from '../components/posts.js';
 slug: "my-first-blog-post-3"
 date: "2022-11-24"
 title: "My first blog post 3"
 html: "I'am agreeeee"
 ---
-
 
 
 <Posts />
