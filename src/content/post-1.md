@@ -1,5 +1,5 @@
 ---
-slug: "my-first-blog-post"
+slug: "my-first-blog-post-new"
 date: "2022-11-24"
 title: "My first blog post"
 html: "I'am agreeeee"
