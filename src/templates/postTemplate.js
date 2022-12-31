@@ -6,11 +6,11 @@ import Layout from "../components/layout"
 
 const shortcodes = { Link } // Provide common components here
 
-export default function PageTemplate({ data, children }) {
+export default function PostTemplate({ data, children }) {
 
   return (
    
-    <Layout pageTitle="About Me">
+    <Layout pageTitle={data.mdx.frontmatter.title}>
       <h1>{data.mdx.frontmatter.title}</h1>
       <MDXProvider components={shortcodes}>
         {children}

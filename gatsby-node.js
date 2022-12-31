@@ -26,7 +26,7 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
 
   // Create blog post pages.
   const posts = result.data.allMdx.nodes
-  const postTemplate = path.resolve(`./src/templates/post.js`)
+  const postTemplate = path.resolve(`./src/templates/postTemplate.js`)
   // you'll call `createPage` for each result
   posts.forEach(node => {
     createPage({
