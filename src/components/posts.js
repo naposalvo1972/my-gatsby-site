@@ -3,7 +3,7 @@ import React, { useState, useEffect } from 'react';
 const Posts = () => {
    const [posts, setPosts] = useState([]);
    useEffect(() => {
-      fetch('https://jsonplaceholder.typicode.com/photos?_limit=10')
+      fetch('https://jsonplaceholder.typicode.com/photos?_limit=20')
          .then((response) => response.json())
          .then((data) => {
             console.log(data);
@@ -16,9 +16,10 @@ const Posts = () => {
 
 return (
     <div className="container-fluid">
+    <div className='row'>
     {posts.map((post) => {
        return (
-         <div className='row'>
+         
             <div className='col-4'>
                <div className="card" key={post.id}>
                   <div className="card-img-top"><img src={post.thumbnailUrl} /></div>
@@ -26,9 +27,10 @@ return (
                   <div className="card-footer"><a href={post.url}>Vai</a></div>
                </div>
             </div>
-         </div>
+   
        );
     })}
+    </div>
  </div>
 );
 };
