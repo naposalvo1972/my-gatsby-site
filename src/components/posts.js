@@ -21,7 +21,7 @@ return (
          <div className='row'>
             <div className='col-4'>
                <div className="card" key={post.id}>
-                  <div className="card-img-top">{post.thumbnailUrl}</div>
+                  <div className="card-img-top"><img src={post.thumbnailUrl} /></div>
                   <div className="card-body">{post.title}</div>
                   <div className="card-footer"><a href={post.url}>Vai</a></div>
                </div>
